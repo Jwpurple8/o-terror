@@ -1,0 +1,57 @@
+
+@keyframes pisca{
+    10%{opacity: 1;}
+    40%{opacity: 0.4;}
+    70%{opacity: 1;}
+    100%{opacity: 0.4;}
+}
+
+body{
+    animation: pisca 2s ease-in-out 3 ;
+    animation-delay: 3s;
+    animation-iteration-count: infinite; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+    p{
+        word-wrap: break-word;
+      
+        font-size: 25px;
+    }
+    h1{
+        text-shadow: 
+        2px 2px 0 rgb(94, 90, 90);
+        font-family: 'Horror Type', sans-serif;
+font-size: 150px;            
+        color: rgb(255, 0, 0);
+    }
+.grandi{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    height: 50%;
+width: 50%;
+    display: none;
+}
+button{
+    text-align: center;
+    display:inline-block;
+    font-size: 80%;
+border-radius: 15px;
+    width: 50%;
+    height: 65%;
+    background-color: rgb(194, 40, 40);
+}
+.ob{
+    height: 30%;
+    display: flex;
+    
+}
+.ativo{
+    display: block;
+}
+
