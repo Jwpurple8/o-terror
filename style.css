@@ -1,4 +1,7 @@
-
+@font-face{
+    font-family: 'No More Justice', sans-serif;
+    src:url(/No-More-Justice.woff.woff) format(woff);
+}
 @keyframes pisca{
     10%{opacity: 1;}
     40%{opacity: 0.4;}
